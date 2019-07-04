@@ -112,8 +112,8 @@ def main():
     VALIDATION_SPLIT = .2
 
     #pathTrain = 'KDDTrain+aggregateOneClsNumeric'
-    pathTrain='D:\Tesi\dataset\DatasetAgg\DatasetStand\Train_standard1'
-    pathTest = 'D:\Tesi\dataset\DatasetAgg\DatasetStand\Test_standard1'
+    pathTrain='\dataset\DatasetAgg\DatasetStand\Train_standard1'
+    pathTest = '\dataset\DatasetAgg\DatasetStand\Test_standard1'
     train = pd.read_csv(pathTrain + ".csv")
     test = pd.read_csv(pathTest + ".csv")
 
