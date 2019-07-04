@@ -13,7 +13,7 @@ from PreProcessing import ohe, standardScale, minMaxScale
 
 def main():
     
-    path="D:\Tesi\dataset\DatasetAgg"
+    path="\dataset\DatasetAgg"
     
     
     col_names =np.array(["duration","protocol_type","service","flag","src_bytes",
